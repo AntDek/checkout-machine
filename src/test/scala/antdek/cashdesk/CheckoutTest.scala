@@ -1,5 +1,6 @@
 package antdek.cashdesk
 
+import antdek.cashdesk.CheckoutDesk.{AllCheckout, SaleCheckout}
 import antdek.cashdesk.SellItems.{Apple, Orange}
 import org.scalatest.{FunSuite, Matchers}
 
