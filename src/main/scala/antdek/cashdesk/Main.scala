@@ -11,5 +11,5 @@ object Main extends App {
   val checkoutDesk = new SaleCheckout()
 
   val itemsInBasket = List(APPLE, APPLE, ORANGE, APPLE)
-  System.out.println(checkoutDesk.calculatePrice(itemsInBasket))
+  System.out.println("Total cost: " + checkoutDesk.calculatePrice(itemsInBasket))
 }
